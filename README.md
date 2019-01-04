@@ -1,8 +1,17 @@
-# flutter_news
+# Flutter News Sample
 
-A new Flutter project.
+A sample news application built with Flutter and [NewsAPI.org](https://newsapi.org/).
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+If you are new to Flutter then follow the [getting started](https://flutter.io/docs/get-started/install).
+
+Sign up at [NewsAPI.org](https://newsapi.org/) and create an API key. Add a new file called keys.dart under the lib folder as follows:
+
+```dart
+class Keys {
+  static final String apiKey = 'add-your-api-key-here';
+}
+```
+
+Run and have fun!
